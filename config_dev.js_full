@@ -246,7 +246,7 @@ var config = {"settings": {"add_css_file":false , "add_js_file":false , "custom_
 , {"question": "カスタム例外クラスについて（3つ選択）" ,"choice":["メンバー変数をもてない" ,"インターフェースの実装ができる" ,"カスタムクラスを継承できる" ,"システム定義の基本クラスを拡張する" ,"クラス名の最後にExceptionをつける"] ,"answer":["インターフェースの実装ができる" ,"システム定義の基本クラスを拡張する" ,"クラス名の最後にExceptionをつける"] ,"feedback_tf":["" ,""]}
 , {"question": "名前空間外からアクセス可能なメソッドを記述する方法（1つ選択）" ,"choice":["クラスとメソッドにglobalをつける" ,"クラスとメソッドにpublicをつける" ,"クラスにglobal、メソッドにpublicにつける" ,"クラスにpublic、メソッドにglobalをつける"] ,"answer":["クラスとメソッドにglobalをつける"] ,"feedback_tf":["" ,""]}
 , {"question": "Account acc = [SELECT Name FROM Account];の結果が複数件あった場合どうなる？（1つ選択）" ,"choice":["例外が発生する？" ,"エラーログに記録される" ,"先頭の1件がaccに格納される" ,"accがリストに変換される"] ,"answer":["例外が発生する？"] ,"feedback_tf":["" ,""]}
-, {"question": "batchableインターフェースを実装したクラスのガバナ制限について" ,"choice":["非同期だから関係ない" ,"非同期だから制限が厳しくなる"] ,"answer":["非同期だから関係ない" ,"非同期だから制限が厳しくなる" ,"with sharingをつけなかった場合の挙動" ,"システムモードで実行"] ,"answer":["システムモードで実行"] ,"feedback_tf":["" ,""]}
+, {"question": "batchableインターフェースを実装したクラスのガバナ制限について" ,"choice":["非同期だから関係ない" ,"非同期だから制限が厳しくなる" ,"with sharingをつけなかった場合の挙動" ,"システムモードで実行"] ,"answer":["システムモードで実行"] ,"feedback_tf":["" ,""]}
 , {"question": "選択リストで必須項目にする方法（1つ選択）" ,"choice":["ページレイアウトで設定" ,"デフォルト値を設定" ,"Apexトリガー"] ,"answer":["ページレイアウトで設定"] ,"feedback_tf":["" ,""]}
 , {"question": "テストカバー率の確認方法（1つ選択）" ,"choice":["TestタブのOverall Code Coverage"] ,"answer":["TestタブのOverall Code Coverage"] ,"feedback_tf":["" ,""]}
 , {"question": "Apexジョブキューの監視方法（2つ選択）" ,"choice":["Apexジョブページ" ,"Apex Flexキュー"] ,"answer":["Apexジョブページ" ,"Apex Flexキュー"] ,"feedback_tf":["" ,""]}
